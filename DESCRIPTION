@@ -1,0 +1,15 @@
+Package: carma
+Type: Package
+Title: Calculate CARMA scores
+Version: 1.0
+Date: 2020-01-04
+Author: Arne Pladsen [aut, cre], Gro Nilsen [aut], Ole Christian Lingjærde [aut]
+Maintainer: Arne Pladsen <arne.v.pladsen@gmail.com>
+Description: The package provides functions for calculating CARMA scores within genomic regions from segmented DNA copy number profiles. The CARMA scores are numeric scores that reflect the presence of specific genomic motifs within the selected regions.
+License: MIT + file LICENSE
+RoxygenNote: 7.0.2
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2020-01-10 13:34:27 UTC; arnepladsen
+Depends: R (>= 3.5.0)
