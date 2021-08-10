@@ -12,7 +12,7 @@ devtools::install_github("arnevpladsen/CARMA")
 
 ## Details
 
-The main function in the carma package is the CARMA function. Input for the function is a list of length samples, containing data frames with segmented integer copy number data. Test data is supplied in the object test.data and shows the format of the input data. CARMA scores can be converted to summary tables using the summaryCARMA function. Regional CARMA scores can also be mapped to genes using the genesCARMA function. The package addtionally supplies plotting functions: per sample using the plotSample function, or across a dataset using the plotDataset function.
+The main function in the carma package is the ```CARMA``` function. Input for the function is a list of length samples, containing data frames with segmented integer copy number data. Test data is supplied in the object ```test.data``` and shows the format of the input data. CARMA scores can be converted to summary tables using the ```summaryCARMA``` function. Regional CARMA scores can also be mapped to genes using the ```genesCARMA``` function. The package addtionally supplies plotting functions: per sample using the ```plotSample``` function, or across a dataset using the ```plotDataset``` function.
 
 ## Author(s)
 
