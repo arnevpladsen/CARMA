@@ -1,8 +1,10 @@
 # CARMA
 
+
 ## Description
 
 The package provides functions for calculating CARMA scores within genomic regions from segmented DNA copy number profiles. The CARMA scores are numeric scores that reflect the presence of specific genomic motifs within the selected regions.
+
 
 ## Installation
 You can install the current CARMA version using the command
@@ -10,9 +12,11 @@ You can install the current CARMA version using the command
 devtools::install_github("arnevpladsen/CARMA")
 ```
 
+
 ## Details
 
 The main function in the carma package is the ```CARMA``` function. Input for the function is a list of length samples, containing data frames with segmented integer copy number data. Test data is supplied in the object ```test.data``` and shows the format of the input data. CARMA scores can be converted to summary tables using the ```summaryCARMA``` function. Regional CARMA scores can also be mapped to genes using the ```genesCARMA``` function. The package addtionally supplies plotting functions: per sample using the ```plotSample``` function, or across a dataset using the ```plotDataset``` function.
+
 
 ## Authors
 
@@ -20,9 +24,6 @@ Authors: Arne Pladsen [aut, cre], Gro Nilsen [aut], Ole Christian Lingjærde [au
 
 Maintainer: Arne Pladsen <arnpla@rr-research.no>
 
-## References
-
-https://www.nature.com/articles/s42003-020-0884-6
 
 ## Examples
 ```R
@@ -50,3 +51,8 @@ plotDataset(carma.res, group=rep(c("pos", "neg"), 50),
 	group.order=c("neg", "pos"), plot.titles=c("Negative", "Positive"), 
 	plot.path="~/Desktop/carma_scores_groups.png", n.plot.cols=3)
 ```
+
+
+## References
+
+https://www.nature.com/articles/s42003-020-0884-6
