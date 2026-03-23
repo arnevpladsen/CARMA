@@ -22,7 +22,7 @@ The main function in the carma package is the ```CARMA``` function. Input for th
 
 Authors: Arne Pladsen [aut, cre], Gro Nilsen [aut], Ole Christian Lingjærde [aut]
 
-Maintainer: Arne Pladsen <arnpla@rr-research.no>
+Maintainer: Arne Pladsen <arne.v.pladsen@gmail.com>
 
 
 ## Examples
